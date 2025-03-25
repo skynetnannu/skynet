@@ -15,7 +15,7 @@ export default defineConfig({
     },
   },
   plugins: [vue()],
-  base:'/skynet',
+  base:'/skynet/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
