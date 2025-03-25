@@ -2,42 +2,42 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
   {
-    path: '/website',
+    path: '/skynet',
     name: 'index',
     component: () => import('@/pages/index.vue')
   },
   {
-    path: '/website/about',
+    path: '/skynet/about',
     name: 'about',
     component: () => import('@/pages/about.vue'),
   },
   {
-    path: '/website/projects',
+    path: '/skynet/projects',
     name: 'projects',
     component: () => import('@/pages/projects.vue'),
   },
   {
-    path: '/website/services',
+    path: '/skynet/services',
     name: 'services',
     component: () => import('@/pages/services2.vue'),
   },
   {
-    path: '/website/contact',
+    path: '/skynet/contact',
     name: 'contact',
     component: () => import('@/pages/contact.vue'),
   },
   {
-    path: '/website/pricing',
+    path: '/skynet/pricing',
     name: 'pricing',
     component: () => import('@/pages/pricing.vue'),
   },
   {
-    path: '/website/animation',
+    path: '/skynet/animation',
     name: 'Animation',
     component: () => import('@/pages/Animation.vue'),
   },
   {
-    path: '/website/ad_creation',
+    path: '/skynet/ad_creation',
     name: 'AdCreation',
     component: () => import('@/pages/adcreation.vue'),
   },
